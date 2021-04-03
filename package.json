@@ -1,0 +1,24 @@
+{
+  "name": "py-dev-image",
+  "version": "1.0.0",
+  "description": "Python Container Development Environment'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrielp/py-dev-image.git"
+  },
+  "keywords": [
+    "python",
+    "development",
+    "container"
+  ],
+  "author": "Adriel Perkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrielp/py-dev-image/issues"
+  },
+  "homepage": "https://github.com/adrielp/py-dev-image#readme"
+}

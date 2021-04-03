@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  python:
+    image: "python:development"
+    build:
+      args:
+        MY_UID: "${MY_UID:? Missing MY_UID}"
+        MY_GID: "${MY_GID:? Missing MY_GID}"
+        MY_USERNAME: "${MY_USERNAME:? Missing MY_USERNAME}"
+        MY_GROUPNAME: "${MY_GROUPNAME:? Missing MY_GROUPNAME}"
+      context: "./"
