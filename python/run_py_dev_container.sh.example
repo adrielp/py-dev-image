@@ -1,0 +1,8 @@
+#adriel!/bin/zsh
+
+docker run --rm -it \
+    --network host \
+    -v "$(pwd)":/home/<your username>/python \
+    -u $(id -u):$(id -g) \
+    python:development \
+    /bin/zsh
