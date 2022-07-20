@@ -1,4 +1,4 @@
-FROM python:3.8-buster
+FROM python:3.10-buster
 ARG MY_UID
 ARG MY_GID
 ARG MY_USERNAME
